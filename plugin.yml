@@ -1,0 +1,15 @@
+name: DragonWand
+main: DeathMCPE\Wand
+version: 2.0.0
+api: 4.0.0
+author: LunarBoyMCPE
+
+commands:
+   builderwand:
+        description: "Use To Get Builder Wand"
+        permission: builderwand.cmd.use
+        
+permissions:
+  builderwand.cmd.use:
+     default: true
+     description: "Permission To Get Builder Wand"
