@@ -4,5 +4,8 @@ branches:
 - master
 projects:
   BuilderWand-PM4:
-    path: ""
+    libs:
+      - src: Vecnavium/FormsUI/libFormsUI
+        version: ^2.0.0
+    
 ...
