@@ -36,14 +36,14 @@ use pocketmine\item\enchantment\EnchantmentInstance;
 class Wand extends PluginBase implements Listener {
 	
 	public function onEnable() : void {
-      $this->getLogger()->info("DragonWand (Made By LunarBoyMCPe 🚩) Is Enabled ✅️");
+      
       $this->getServer()->getPluginManager()->registerEvents($this, $this);
       $this->saveResource("config.yml");
       $this->config = new Config($this->getDataFolder() . "config.yml", Config::YAML, array());
     }
     
   public function onDisable() : void {
-      $this->getLogger()->info("DragonWand (Made By LunarBoyMCPE 🚩) Is Disabled ✅️");
+      
     }
     
     public function onCommand(CommandSender $sender, Command $cmd, String $label, Array $args) : bool {
