@@ -26,7 +26,7 @@ use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\event\player\PlayerItemUseEvent;
 use pocketmine\event\block\BlockBreakEvent;
-use VecFormAPI\SimpleForm;
+use FormAPI\SimpleForm;
 use pocketmine\item\enchantment\ItemFlags;
 use pocketmine\item\enchantment\Enchantment;
 use pocketmine\item\enchantment\VanillaEnchantments;
